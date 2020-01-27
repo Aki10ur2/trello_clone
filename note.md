@@ -27,12 +27,15 @@ $ yarn global add create-react-app
 # 追記した内容を読み込む
 $ source ~/.bash_profile 
 
+# WSLの環境だと、react-scriptsがバグる。
+# そのため、package.jsonのreact-scriptsのバージョンを3.3.0から3.2.0に戻して再インストール。
+$ yarn install
+
 # 作る。
 $ create-react-app app
 
-# WSLの環境だと、react-scriptsがバグる。
-# そのため、package.jsonのreact-scriptsのバージョンを3.3.0から3.2.0に戻して再インストール。
-$ npm install
+# Reduxを使って勉強してねって書いてあるので入れる。
+$ yarn add react-redux
 
 ```
 
