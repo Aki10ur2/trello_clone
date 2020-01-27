@@ -10,7 +10,7 @@ Issues をノート代わりに使用します。
 
 - Windows10 Home
 - Visual Studio Code
-- WSL2
+- WSL
   - Ubuntu18.04.3 LTS
 
 ### 環境構築
